@@ -22,3 +22,34 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Node.js files
+node_modules/
+
+# Package manager lock files
+package-lock.json
+yarn.lock
+
+# Build output (adjust based on your build tool)
+dist/
+build/
+
+# Editor temporary/cache files
+.vscode/
+.idea/
+
+# Testing coverage files
+coverage/
+
+# Environment variables
+.env*
+
+# IDE specific cache/history
+.eslintcache
+.gitpod/
+
+# Optional: Temporary files created during development
+*.tmp
+
+# Logs
+*.log
