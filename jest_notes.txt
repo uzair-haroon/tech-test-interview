@@ -1,0 +1,18 @@
+module.exports = {
+  <func_name>
+}
+
+const {
+  <func_name>
+} = require('./<file_name>')
+
+describe('<func_name>', () => {
+    test('<describe what it should do>', () => {
+      expect(<action>).toEqual(<expected_output>)
+    });
+    describe('<func_name> Side Effects', () => {
+        test('<describe what it should do>', () => {
+
+        });
+    });
+});
