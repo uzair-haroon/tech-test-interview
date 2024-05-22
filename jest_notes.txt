@@ -6,13 +6,20 @@ const {
   <func_name>
 } = require('./<file_name>')
 
-describe('<func_name>', () => {
-    test('<describe what it should do>', () => {
-      expect(<action>).toEqual(<expected_output>)
-    });
-    describe('<func_name> Side Effects', () => {
-        test('<describe what it should do>', () => {
 
-        });
+
+describe('<func_name>', () => {
+
+  beforeEach(() => {
+    // Code in here
+  });
+
+  test('<describe what it should do>', () => {
+    expect(<action>).toEqual(<expected_output>)
+  });
+  describe('<func_name> Side Effects', () => {
+    test('<describe what it should do>', () => {
+
     });
+  });
 });
